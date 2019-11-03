@@ -1,6 +1,5 @@
 const wherefore = require("../../lib/fcc-problem-sets/wherefore");
 const chai = require("chai");
-const assert = chai.assert;
 const expect = chai.expect; 
 
 describe("wherefore art thou", () =>{
