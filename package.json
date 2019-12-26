@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test":"mocha ./tests/fcc-problem-sets/*.test.js"
   },
   "dependencies": {
     "async": "^3.0.1",
