@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "test": ".node_modules/.bin/nyc --reporter=cobertura --reporter=text --reporter=html ./node_modules/.bin/mocha ./tests/fcc-problem-sets/*.test.js"
+    "test": "./node_modules/.bin/nyc --reporter=cobertura --reporter=text --reporter=html ./node_modules/.bin/mocha ./tests/fcc-problem-sets/*.test.js"
   },
   "dependencies": {
     "async": "^3.0.1",
